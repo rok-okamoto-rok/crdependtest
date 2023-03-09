@@ -1,6 +1,0 @@
-version: '2'
-services:
-  db:
-    image: php:8.0.0
-  web:
-    image: postgres:14.6
