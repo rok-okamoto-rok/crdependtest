@@ -9,6 +9,20 @@ version: 2
 #     password: ${{secrets.ECR_AWS_SECRET_ACCESS_KEY}}
 #     replaces-base: true
 updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "[npm] "
+updates:
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "[composer] "
+updates:
   - package-ecosystem: "docker"
     directory: "/docker/test1"
     schedule:
