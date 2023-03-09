@@ -1,1 +1,1 @@
-FROM quay.io/petr_ruzicka/malware-cryptominer-container:2.0.0
+FROM php:8.0.0
