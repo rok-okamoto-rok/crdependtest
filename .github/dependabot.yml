@@ -10,7 +10,7 @@ version: 2
 #     replaces-base: true
 updates:
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/docker/test1"
     schedule:
       interval: "daily"
     commit-message:
